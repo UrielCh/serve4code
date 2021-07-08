@@ -1,6 +1,6 @@
 {
   "name": "serve4code",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A simple webserver handeling http callback call.",
   "keywords": [
     "webcallback",
@@ -10,7 +10,7 @@
   ],
 
   "main": "src/index.js",
-  "typings": "dist/index.d.ts",
+  "typings": "src/index.d.ts",
     "scripts": {
     "build": "tsc -p .",
     "prepare": "npm run build"
@@ -31,6 +31,8 @@
   },
   "files": [
     "src/index.js",
-    "src/index.d.ts"
+    "src/index.d.ts",
+    "src/Serve4code.js",
+    "src/Serve4code.d.ts"
   ]
 }
